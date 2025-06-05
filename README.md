@@ -1,4 +1,4 @@
-# Movie Ticket Booking API
+# Movie Ticket Booking Web API
 
 A secure and scalable backend API for a movie ticket booking system built with **Node.js**, **Express**, and **MongoDB**. It includes JWT-based login, role-based access, and CRUD operations for movies, theatres, and user-specific bookings.
 
