@@ -62,7 +62,7 @@ All APIs use JSON and most require JWT Authorization in the form:
 Authorization: Bearer <token>
 ```
 
-1- Auth APIs
+# 1- Auth APIs
 
 POST /auth/register
 Create a new user (optional).
@@ -96,7 +96,7 @@ Success Response:
  }
 
 ```
-2- Movie APIs (Admin only)
+# 2- Movie APIs (Admin only)
 All endpoints require admin JWT.
 
 GET /movies
@@ -128,7 +128,7 @@ Update a movie.
 DELETE /movies/:id
 Delete a movie.
 
-3- Theatre APIs (Admin only)
+# 3- Theatre APIs (Admin only)
 All endpoints require admin JWT.
 
 GET /theatres
@@ -150,7 +150,7 @@ Update a theatre.
 DELETE /theatres/:id
 Delete a theatre.
 
-4- Booking APIs (User only)
+# 4- Booking APIs (User only)
 All endpoints require user JWT.
 
 GET /bookings
@@ -186,7 +186,8 @@ DELETE /bookings/:id
 Cancel your booking.
 
 
-Testing
+
+## Testing
 Use Postman or cURL to test endpoints with appropriate JWT tokens.
 
 
